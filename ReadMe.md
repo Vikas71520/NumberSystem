@@ -3,4 +3,4 @@
 <br>
 2 Prime Function
 <br>
-3 Max,min and Sum Function
+3 Max, min and Sum Function
