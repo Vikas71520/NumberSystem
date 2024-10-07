@@ -18,3 +18,30 @@ for (let i=0;i<n;i++)
     }
 }
 console.log(ansArr);
+
+
+let nn = ansArr.length;
+let Max = ansArr[0];
+let Min = ansArr[0];
+let sum = 0;
+for (let i=0; i<nn; i++)
+{
+    if (ansArr[i] > Max)
+    {
+        Max = ansArr[i];
+    }
+}
+for (let i=0; i<nn; i++)
+{
+    if (ansArr[i] < Min)
+    {
+        Min = ansArr[i];
+    }
+}
+for (let i=0; i<nn; i++)
+{
+    sum = sum + ansArr[i];
+}
+console.log(Min)
+console.log(Max)
+console.log(sum)
